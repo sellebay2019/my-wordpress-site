@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-02T12:10:37+00:00\n"
+"PO-Revision-Date: 2025-09-02 11:39+0000\n"
+"Language: lt_LT\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27"
+
+#: includes/Admin/Assets.php:173
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr " Įjungus XML-RPC, tavo svetainė gali būti mažiau saugi. Ar nori tęsti?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Veiksmas nepavyko. Bandyk dar kartą arba susisiek su palaikymu. Atsiprašome."
+
+#: includes/Admin/Assets.php:154
+#, fuzzy
+msgid "AI Tools"
+msgstr "AI įrankiai"
+
+#: includes/Admin/Assets.php:184
+#, fuzzy
+msgid "Allow Kodee to manage your site"
+msgstr "Leiskite \"Kodee\" valdyti svetainę"
+
+#: includes/Admin/Assets.php:163
+#, fuzzy
+msgid ""
+"An external LLMs.txt file was found. Switching on the toggle will replace it "
+"with a new one."
+msgstr ""
+"Rastas išorinis LLMs.txt failas. Įjungus perjungiklį jis bus pakeistas nauju."
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "Nenumatyta klaida. Bandyk dar kartą arba susisiek su pagalbos komanda."
+
+#. translators: %s: PHP version
+#: hostinger.php:84
+msgid "Attention:"
+msgstr "Dėmesio:"
+
+#: includes/Admin/Assets.php:169
+msgid "Bypass link"
+msgstr "Apeiti nuorodą"
+
+#: includes/Admin/Assets.php:177
+msgid "Bypass link reset"
+msgstr "Apeiti nuorodos atkūrimą"
+
+#: includes/Admin/Assets.php:166 includes/Admin/Assets.php:175
+#: includes/Admin/Assets.php:179
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: includes/Admin/Assets.php:161
+#, fuzzy
+msgid "Check validity"
+msgstr "Patikrinkite galiojimą"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "Netrukus"
+
+#: includes/Admin/Assets.php:189
+#, fuzzy
+msgid "Connect domain"
+msgstr "Prijungti domeną"
+
+#: includes/Admin/Assets.php:186
+#, fuzzy
+msgid "Copied successfully"
+msgstr "Sėkmingai nukopijuota"
+
+#: includes/Admin/Assets.php:167
+#, fuzzy
+msgid "Create file"
+msgstr "Sukurti failą"
+
+#: includes/Admin/Assets.php:156
+#, fuzzy
+msgid "Create LLMs.txt file"
+msgstr "Sukurti LLMs.txt failą"
+
+#: includes/Admin/Assets.php:164
+#, fuzzy
+msgid "Create new LLMs.txt file?"
+msgstr "Sukurti naują LLMs.txt failą?"
+
+#: includes/Admin/Assets.php:134
+msgid "Disable application passwords"
+msgstr "Išjungti programų slaptažodžius"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"Išjungti viešą prieigą prie svetainės (WordPress administratoriai vis tiek "
+"galės prisijungti)"
+
+#: includes/Admin/Assets.php:132
+msgid "Disable XML-RPC"
+msgstr "Išjungti XML-RPC"
+
+#: includes/Admin/Assets.php:174
+msgid "Disclaimer"
+msgstr "Perspėjimas"
+
+#: includes/Admin/Assets.php:128
+msgid "Edit site"
+msgstr "Redaguoti svetainę"
+
+#: includes/Admin/Assets.php:149
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+"Saugumui užtikrinti, rekomenduojame naudoti naujausią WordPress versiją"
+
+#: includes/Admin/Assets.php:137
+#| msgid "Force HTTPs"
+msgid "Force HTTPS"
+msgstr "Taikyti HTTPS"
+
+#: includes/Admin/Assets.php:139
+msgid "Force WWW"
+msgstr "Taikyti WWW"
+
+#: includes/Admin/Assets.php:172 includes/Admin/Hooks.php:57
+msgid "Got it"
+msgstr "Supratau"
+
+#. Author of the plugin
+#: hostinger.php
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:55
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#: includes/Admin/Hooks.php:51
+msgid "Hostinger plugin updates"
+msgstr "Hostinger įskiepių atnaujinimai"
+
+#. Plugin Name of the plugin
+#: hostinger.php includes/Admin/Hooks.php:54
+msgid "Hostinger Tools"
+msgstr "Hostinger Tools"
+
+#: includes/Admin/Assets.php:171
+msgid ""
+"Hostinger Tools will offer new tools to simplify your site management. And "
+"Hostinger Easy Onboarding will guide you through the steps of building a "
+"website."
+msgstr ""
+"Hostinger Tools įskiepis padės svetainę valdyti paprasčiau, o Hostinger Easy "
+"Onboarding įskiepis padės atlikti visus svetainės kūrimo žingsnius."
+
+#. Description of the plugin
+#: hostinger.php
+msgid "Hostinger WordPress plugin."
+msgstr "Hostinger WordPress įskiepis."
+
+#. Plugin URI of the plugin
+#: hostinger.php
+msgid "https://hostinger.com"
+msgstr "https://hostinger.lt"
+
+#. Author URI of the plugin
+#: hostinger.php
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.lt"
+
+#: includes/Admin/Assets.php:148
+msgid "is recommended"
+msgstr "rekomenduojama"
+
+#: includes/Admin/Assets.php:183
+#, fuzzy
+msgid "It was an error updating your settings"
+msgstr "Tai buvo jūsų nustatymų atnaujinimo klaida"
+
+#: includes/Admin/Assets.php:160
+#, fuzzy
+msgid "Learn more"
+msgstr "Sužinokite daugiau"
+
+#: includes/Admin/Assets.php:157
+#, fuzzy
+#| msgid "Let AI explore, understand, and interact with your WordPress site"
+msgid "Let AI explore, understand, and interact with your WordPress site."
+msgstr ""
+"Leiskite dirbtiniam intelektui tyrinėti, suprasti ir sąveikauti su jūsų "
+"\"WordPress\" svetaine"
+
+#: includes/Admin/Assets.php:185
+#, fuzzy
+msgid ""
+"Let Kodee manage your site on your behalf. This allows Kodee to perform "
+"actions like creating pages or updating settings. We will install and pre-"
+"configure the WordPress MCP plugin for you."
+msgstr ""
+"Leiskite \"Kodee\" tvarkyti svetainę jūsų vardu. Tai leidžia \"Kodee\" "
+"atlikti tokius veiksmus kaip puslapių kūrimas ar nustatymų atnaujinimas. "
+"Įdiegsime ir iš anksto sukonfigūruosime \"WordPress MCP\" įskiepį."
+
+#: includes/Admin/Assets.php:181
+msgid "Link has been reset"
+msgstr "Nuoroda nustatyta iš naujo"
+
+#: includes/Admin/Assets.php:155
+#, fuzzy
+msgid "LLM Optimization"
+msgstr "LLM optimizavimas"
+
+#: includes/Admin/Assets.php:188
+#, fuzzy
+msgid ""
+"LLM optimization features are not available for temporary subdomains. "
+"Connect a domain to unlock these features."
+msgstr ""
+"LLM optimizavimo funkcijos laikiniems subdomenams neprieinamos. Norėdami "
+"atrakinti šias funkcijas, prijunkite domeną."
+
+#: includes/Admin/Assets.php:162
+#, fuzzy
+msgid "LLMS.txt"
+msgstr "LLMS.txt"
+
+#: includes/Admin/Assets.php:150
+msgid "Maintenance"
+msgstr "Priežiūra"
+
+#: includes/Admin/Assets.php:168
+msgid "Maintenance mode"
+msgstr "Darbinis režimas"
+
+#: includes/Admin/Assets.php:159
+#, fuzzy
+msgid ""
+"Make your website easier for AI tools to understand. Website content updates "
+"will be tracked to keep the AI discovery service up to date."
+msgstr ""
+"Užtikrinkite, kad dirbtinio intelekto įrankiai lengviau suprastų jūsų "
+"svetainę. Svetainės turinio atnaujinimai bus stebimi, kad dirbtinio "
+"intelekto atradimo paslauga būtų nuolat atnaujinama."
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "Naujas WordPress tinklapis kuriamas ir netrukus bus paskelbtas"
+
+#: includes/Admin/Hooks.php:54
+msgid "offers a toolkit for easier site maintenance."
+msgstr "rasi įrankių rinkinį lengvesnei svetainės priežiūrai."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"<a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-post\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:126
+msgid "Open guide"
+msgstr "Atidaryti gidą"
+
+#: includes/Admin/Assets.php:142
+msgid "PHP version"
+msgstr "PHP versija"
+
+#: includes/Admin/Assets.php:151
+msgid "Preview my website"
+msgstr "Peržiūrėti svetainę"
+
+#: includes/Admin/Assets.php:127
+msgid "Preview site"
+msgstr "Peržiūrėti svetainę"
+
+#: includes/Admin/Assets.php:176
+msgid "Proceed anyway"
+msgstr "Vis tiek tęsti"
+
+#: includes/Admin/Hooks.php:55
+msgid ""
+"provides guidance and learning resources for beginners to get started with "
+"building a site using WordPress."
+msgstr ""
+"rasi pradedantiesiems skirtus patarimus ir mokomąją medžiagą, padėsiančią "
+"sukurti svetainę naudojant WordPress."
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Įvertink šį įskiepį"
+
+#: includes/Admin/Assets.php:153
+msgid "Redirects"
+msgstr "Peradresavimas"
+
+#: includes/Admin/Assets.php:138
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "Peradresuoti visus HTTP URL į HTTPS svetaines"
+
+#: includes/Admin/Assets.php:140
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "Peradresuoti visus WWW URL į ne WWW adresus"
+
+#: includes/Admin/Assets.php:131 includes/Admin/Assets.php:180
+msgid "Reset link"
+msgstr "Atstatyti nuorodą"
+
+#: includes/Admin/Assets.php:145
+msgid "Running the latest version"
+msgstr "Paleisti naujausią versiją"
+
+#: includes/Admin/Assets.php:152
+msgid "Security"
+msgstr "Saugumas"
+
+#: includes/Admin/Assets.php:130
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "Praleisti nuorodą, kuri apeina priežiūros režimą"
+
+#: includes/Admin/Assets.php:187
+#, fuzzy
+msgid "Text has been copied successfully"
+msgstr "Tekstas sėkmingai nukopijuotas"
+
+#: includes/Admin/Hooks.php:52
+msgid "The Hostinger plugin has been split into two different plugins:"
+msgstr "Hostinger įskiepis buvo padalintas į du atskirus įskiepius:"
+
+#: includes/Admin/Assets.php:178
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"Tai panaikins šiuo metu naudojamą sukurtą nuorodą. Šio veiksmo atšaukti "
+"negalima, ar tikrai nori tęsti?"
+
+#: includes/Admin/Assets.php:165
+#, fuzzy
+msgid ""
+"This will replace the existing LLMs.txt file with a new one by Hostinger "
+"Tools. The original file can’t be restored."
+msgstr ""
+"Tai pakeis esamą LLMs.txt failą nauju \"Hostinger Tools\" failu. Pirminio "
+"failo atkurti negalima."
+
+#: includes/Admin/Assets.php:125 includes/Admin/Menu.php:22
+#: includes/Admin/Menu.php:31 includes/Admin/Menu.php:32
+msgid "Tools"
+msgstr "Įrankiai"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "Nežinomas klaidos kodas."
+
+#: includes/Admin/Assets.php:146
+#, fuzzy
+msgid "Update"
+msgstr "Atnaujinti"
+
+#: includes/Admin/Assets.php:147
+msgid "Update to"
+msgstr "Atnaujinti į"
+
+#: includes/Admin/Assets.php:144
+msgid "Various updates and fixes available in the newest version."
+msgstr "Naujausioje versijoje yra įvairių atnaujinimų ir pataisymų."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Atsiprašome už nepatogumus. DI turinio generavimo procesas susidūrė su "
+"serverio klaida. Bandyk dar kartą vėliau, o jei problema išlieka, maloniai "
+"prašome susisiekti su mūsų palaikymo komanda dėl pagalbos."
+
+#: includes/Admin/Assets.php:158
+#| msgid "Web 2 Agent"
+msgid "Web2Agent"
+msgstr "Web2Agentas"
+
+#: includes/Admin/Assets.php:170
+msgid ""
+"We’re splitting Hostinger plugin into two: Hostinger Tools and Hostinger "
+"Easy Onboarding"
+msgstr ""
+"Hostinger įskiepį dalijame į du: Hostinger Tools ir Hostinger Easy "
+"Onboarding "
+
+#: includes/Admin/Assets.php:135
+msgid ""
+"WordPress application passwords allow users to authenticate API requests "
+"without using their main login credentials, allowing for third-party "
+"integrations."
+msgstr ""
+"WordPress programų slaptažodžiai leidžia naudotojams autentifikuoti API "
+"užklausas nenaudojant pagrindinių prisijungimo duomenų, todėl galima "
+"integruoti trečiųjų šalių programas."
+
+#: includes/Admin/Assets.php:143
+msgid "WordPress version"
+msgstr "WordPress versija"
+
+#: includes/Admin/Assets.php:141
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"WWW ir ne WWW domenų įrašai nėra nukreipti į tą patį kompiuterį. "
+"Peradresuoti neįmanoma."
+
+#: includes/Admin/Assets.php:133
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"XML-RPC leidžia programoms prisijungti prie WordPress svetainės, tačiau gali "
+"būti pažeistas svetainės saugumas. Išjunk šią funkciją, jei ji nereikalinga"
+
+#: includes/Admin/Assets.php:182
+#, fuzzy
+msgid "Your settings have been updated"
+msgstr "Jūsų nustatymai buvo atnaujinti"

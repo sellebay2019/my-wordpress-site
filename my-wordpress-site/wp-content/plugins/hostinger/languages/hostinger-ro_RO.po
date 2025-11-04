@@ -1,0 +1,451 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Tools 3.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-30T12:00:12+00:00\n"
+"PO-Revision-Date: 2025-09-02 11:41+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.0.30"
+
+#: includes/Admin/Assets.php:173
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr ""
+"Activarea protocolului XML-RPC poate scădea nivelul de securizare al site-"
+"ului tău. Vrei să continui?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Acțiunea a eșuat. Încearcă din nou sau contactează echipa de asistență. Ne "
+"pare rău."
+
+#: includes/Admin/Assets.php:154
+#, fuzzy
+msgid "AI Tools"
+msgstr "Instrumente AI"
+
+#: includes/Admin/Assets.php:184
+#, fuzzy
+msgid "Allow Kodee to manage your site"
+msgstr "Permiteți-i lui Kodee să vă administreze site-ul"
+
+#: includes/Admin/Assets.php:163
+#, fuzzy
+msgid ""
+"An external LLMs.txt file was found. Switching on the toggle will replace it "
+"with a new one."
+msgstr ""
+"A fost găsit un fișier LLMs.txt extern. Activarea comutatorului îl va "
+"înlocui cu unul nou."
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"A intervenit o eroare neașteptată. Te rugăm să încerci din nou sau să "
+"contactezi echipa de asistență."
+
+#. translators: %s: PHP version
+#: hostinger.php:84
+msgid "Attention:"
+msgstr "Atenție:"
+
+#: includes/Admin/Assets.php:169
+msgid "Bypass link"
+msgstr "Link de bypass"
+
+#: includes/Admin/Assets.php:177
+msgid "Bypass link reset"
+msgstr "Resetează link-ul de bypass"
+
+#: includes/Admin/Assets.php:166 includes/Admin/Assets.php:175
+#: includes/Admin/Assets.php:179
+msgid "Cancel"
+msgstr "Anulează"
+
+#: includes/Admin/Assets.php:161
+#, fuzzy
+msgid "Check validity"
+msgstr "Verificarea validității"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "În curând"
+
+#: includes/Admin/Assets.php:189
+#, fuzzy
+msgid "Connect domain"
+msgstr "Conectați domeniul"
+
+#: includes/Admin/Assets.php:186
+#, fuzzy
+msgid "Copied successfully"
+msgstr "Copiat cu succes"
+
+#: includes/Admin/Assets.php:167
+#, fuzzy
+msgid "Create file"
+msgstr "Crearea fișierului"
+
+#: includes/Admin/Assets.php:156
+#, fuzzy
+msgid "Create LLMs.txt file"
+msgstr "Creați fișierul LLMs.txt"
+
+#: includes/Admin/Assets.php:164
+#, fuzzy
+msgid "Create new LLMs.txt file?"
+msgstr "Crearea unui nou fișier LLMs.txt?"
+
+#: includes/Admin/Assets.php:134
+msgid "Disable application passwords"
+msgstr "Dezactivează parolele aplicațiilor"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"Dezactivează accesul public la site (administratorii WordPress vor putea în "
+"continuare să acceseze site-ul)"
+
+#: includes/Admin/Assets.php:132
+msgid "Disable XML-RPC"
+msgstr "Dezactivează XML-RPC"
+
+#: includes/Admin/Assets.php:174
+msgid "Disclaimer"
+msgstr "Avertizare"
+
+#: includes/Admin/Assets.php:128
+msgid "Edit site"
+msgstr "Editează site-ul"
+
+#: includes/Admin/Assets.php:149
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr ""
+"Pentru o securizare mai bună, asigură-te că folosești cea mai recentă "
+"versiune de WordPress"
+
+#: includes/Admin/Assets.php:137
+msgid "Force HTTPS"
+msgstr "Forțează HTTPS"
+
+#: includes/Admin/Assets.php:139
+msgid "Force WWW"
+msgstr "Forțează WWW"
+
+#: includes/Admin/Assets.php:172 includes/Admin/Hooks.php:57
+msgid "Got it"
+msgstr "Am înțeles"
+
+#. Author of the plugin
+#: hostinger.php
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:55
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#: includes/Admin/Hooks.php:51
+msgid "Hostinger plugin updates"
+msgstr "Actualizări plugin-uri Hostinger"
+
+#. Plugin Name of the plugin
+#: hostinger.php includes/Admin/Hooks.php:54
+msgid "Hostinger Tools"
+msgstr "Instrumente Hostinger"
+
+#: includes/Admin/Assets.php:171
+msgid ""
+"Hostinger Tools will offer new tools to simplify your site management. And "
+"Hostinger Easy Onboarding will guide you through the steps of building a "
+"website."
+msgstr ""
+"Instrumente Hostinger este o suită care simplifică administrarea site-ului "
+"tău. Iar Hostinger Easy Onboarding te va ghida în crearea site-ului."
+
+#. Description of the plugin
+#: hostinger.php
+msgid "Hostinger WordPress plugin."
+msgstr "Plugin WordPress Hostinger."
+
+#. Plugin URI of the plugin
+#: hostinger.php
+msgid "https://hostinger.com"
+msgstr "https://www.hostinger.com/ro"
+
+#. Author URI of the plugin
+#: hostinger.php
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com/ro"
+
+#: includes/Admin/Assets.php:148
+msgid "is recommended"
+msgstr "este recomandat"
+
+#: includes/Admin/Assets.php:183
+#, fuzzy
+msgid "It was an error updating your settings"
+msgstr "A fost o eroare la actualizarea setărilor dvs"
+
+#: includes/Admin/Assets.php:160
+#, fuzzy
+msgid "Learn more"
+msgstr "Aflați mai multe"
+
+#: includes/Admin/Assets.php:157
+#, fuzzy
+#| msgid "Let AI explore, understand, and interact with your WordPress site"
+msgid "Let AI explore, understand, and interact with your WordPress site."
+msgstr ""
+"Permiteți AI să exploreze, să înțeleagă și să interacționeze cu site-ul dvs. "
+"WordPress"
+
+#: includes/Admin/Assets.php:185
+#, fuzzy
+msgid ""
+"Let Kodee manage your site on your behalf. This allows Kodee to perform "
+"actions like creating pages or updating settings. We will install and pre-"
+"configure the WordPress MCP plugin for you."
+msgstr ""
+"Permiteți-i lui Kodee să vă gestioneze site-ul în numele dumneavoastră. "
+"Acest lucru îi permite lui Kodee să efectueze acțiuni precum crearea de "
+"pagini sau actualizarea setărilor. Vom instala și pre-configura pluginul "
+"WordPress MCP pentru dvs."
+
+#: includes/Admin/Assets.php:181
+msgid "Link has been reset"
+msgstr "Link-ul a fost resetat"
+
+#: includes/Admin/Assets.php:155
+#, fuzzy
+msgid "LLM Optimization"
+msgstr "LLM Optimizare"
+
+#: includes/Admin/Assets.php:188
+#, fuzzy
+msgid ""
+"LLM optimization features are not available for temporary subdomains. "
+"Connect a domain to unlock these features."
+msgstr ""
+"Funcțiile de optimizare LLM nu sunt disponibile pentru subdomeniile "
+"temporare. Conectați un domeniu pentru a debloca aceste caracteristici."
+
+#: includes/Admin/Assets.php:162
+#, fuzzy
+msgid "LLMS.txt"
+msgstr "LLMS.txt"
+
+#: includes/Admin/Assets.php:150
+msgid "Maintenance"
+msgstr "Întreținere"
+
+#: includes/Admin/Assets.php:168
+msgid "Maintenance mode"
+msgstr "Mod Întreținere"
+
+#: includes/Admin/Assets.php:159
+#, fuzzy
+msgid ""
+"Make your website easier for AI tools to understand. Website content updates "
+"will be tracked to keep the AI discovery service up to date."
+msgstr ""
+"Faceți site-ul dvs. mai ușor de înțeles pentru instrumentele AI. "
+"Actualizările conținutului site-ului vor fi urmărite pentru a menține "
+"actualizat serviciul de descoperire AI."
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "Se creează un nou site WordPress care va fi publicat în curând"
+
+#: includes/Admin/Hooks.php:54
+msgid "offers a toolkit for easier site maintenance."
+msgstr ""
+"oferă un set de instrumente pentru o întreținere mai ușoară a site-ului."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr "pe WordPress.org"
+
+#: includes/Admin/Assets.php:126
+msgid "Open guide"
+msgstr "Deschide ghidul"
+
+#: includes/Admin/Assets.php:142
+msgid "PHP version"
+msgstr "versiunea PHP"
+
+#: includes/Admin/Assets.php:151
+msgid "Preview my website"
+msgstr "Previzualizează site-ul"
+
+#: includes/Admin/Assets.php:127
+msgid "Preview site"
+msgstr "Previzualizare site"
+
+#: includes/Admin/Assets.php:176
+msgid "Proceed anyway"
+msgstr "Continuă oricum"
+
+#: includes/Admin/Hooks.php:55
+msgid ""
+"provides guidance and learning resources for beginners to get started with "
+"building a site using WordPress."
+msgstr ""
+"oferă ghidare și resurse de învățare pentru începătorii care vor să înceapă "
+"să creeze un site WordPress."
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Evaluează acest plugin"
+
+#: includes/Admin/Assets.php:153
+msgid "Redirects"
+msgstr "Redirecționează"
+
+#: includes/Admin/Assets.php:138
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "Redirecționează toate URL-urile HTTP către site-uri HTTPS"
+
+#: includes/Admin/Assets.php:140
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "Redirecționează toate URL-urile WWW către site-uri non-WWW"
+
+#: includes/Admin/Assets.php:131 includes/Admin/Assets.php:180
+msgid "Reset link"
+msgstr "Resetează link-ul"
+
+#: includes/Admin/Assets.php:145
+msgid "Running the latest version"
+msgstr "Ruleazp cea mai recentă versiune"
+
+#: includes/Admin/Assets.php:152
+msgid "Security"
+msgstr "Securitate"
+
+#: includes/Admin/Assets.php:130
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "Link de bypass care ocolește modul Întreținere."
+
+#: includes/Admin/Assets.php:187
+#, fuzzy
+msgid "Text has been copied successfully"
+msgstr "Textul a fost copiat cu succes"
+
+#: includes/Admin/Hooks.php:52
+msgid "The Hostinger plugin has been split into two different plugins:"
+msgstr "Plugin-ul Hostinger a fost împărțit în două plugin-uri diferite:"
+
+#: includes/Admin/Assets.php:178
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"Această acțiune va invalida link-ul generat și utilizat la moment. Această "
+"acțiune este ireversibilă. Ești sigur/ă că vrei să continui? "
+
+#: includes/Admin/Assets.php:165
+#, fuzzy
+msgid ""
+"This will replace the existing LLMs.txt file with a new one by Hostinger "
+"Tools. The original file can’t be restored."
+msgstr ""
+"Acest lucru va înlocui fișierul LLMs.txt existent cu unul nou creat de "
+"Hostinger Tools. Fișierul original nu poate fi restaurat."
+
+#: includes/Admin/Assets.php:125 includes/Admin/Menu.php:22
+#: includes/Admin/Menu.php:31 includes/Admin/Menu.php:32
+msgid "Tools"
+msgstr "Instrumente"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "Cod de eroare necunoscut"
+
+#: includes/Admin/Assets.php:146
+#, fuzzy
+msgid "Update"
+msgstr "Actualizare"
+
+#: includes/Admin/Assets.php:147
+msgid "Update to"
+msgstr "Actualizează la"
+
+#: includes/Admin/Assets.php:144
+msgid "Various updates and fixes available in the newest version."
+msgstr "Versiunea nouă include numeroase actualizări și remedieri."
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Ne cerem scuze pentru neplăcerile create. Procesul de generare a "
+"conținutului AI a întâmpinat o eroare de server. Te rugăm să încerci mai "
+"târziu și, dacă problema persistă, te rugăm să contactezi echipa de "
+"asistență."
+
+#: includes/Admin/Assets.php:158
+#| msgid "Web 2 Agent"
+msgid "Web2Agent"
+msgstr "Web2Agentul"
+
+#: includes/Admin/Assets.php:170
+msgid ""
+"We’re splitting Hostinger plugin into two: Hostinger Tools and Hostinger "
+"Easy Onboarding"
+msgstr ""
+"Împărțim plugin-ul Hostinger în două: Instrumente Hostinger și Hostinger "
+"Easy Onboarding"
+
+#: includes/Admin/Assets.php:135
+msgid ""
+"WordPress application passwords allow users to authenticate API requests "
+"without using their main login credentials, allowing for third-party "
+"integrations."
+msgstr ""
+"Parolele aplicațiilor WordPress oferă utilizatorilor posibilitatea de a "
+"autentifica solicitările API fără a utiliza credențialele principale de "
+"conectare, permițând integrarea terților."
+
+#: includes/Admin/Assets.php:143
+msgid "WordPress version"
+msgstr "versiune WordPress"
+
+#: includes/Admin/Assets.php:141
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"Înregistrările de domenii WWW și non-WWW nu sunt direcționate spre aceeași "
+"gazdă. Redirecționarea nu este posibilă."
+
+#: includes/Admin/Assets.php:133
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"Protocul XML-RPC permite conectarea aplicațiilor la site-ul tău WordPress, "
+"dar ar putea să vulnerabilizeze securizarea site-ul tău. Dezactivează "
+"această funcție, dacă nu ai nevoie de ea."
+
+#: includes/Admin/Assets.php:182
+#, fuzzy
+msgid "Your settings have been updated"
+msgstr "Setările dvs. au fost actualizate"

@@ -1,0 +1,107 @@
+{
+  "name": "hostinger",
+  "private": true,
+  "main": "webpack.mix.js",
+  "scripts": {
+    "auth:gcp": "gcloud auth application-default login",
+    "auth:gca": "npx google-artifactregistry-auth",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "watch": "npm run development -- --watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev:vue-frontend": "webpack --mode development --watch",
+    "build:vue-frontend": "webpack --mode production",
+    "prepare": "husky",
+    "lint:php": "vendor/bin/phpcs",
+    "lint:frontend": "eslint vue-frontend/src --config vue-frontend/src/eslint.config.mjs",
+    "lint:frontend:fix": "eslint vue-frontend/src --config vue-frontend/src/eslint.config.mjs --fix",
+    "test:vue": "vitest --run",
+    "test:vue:watch": "vitest --watch",
+    "test:vue:ui": "vitest --ui",
+    "test:coverage": "vitest --run --coverage"
+  },
+  "lint-staged": {
+    "*.php": [
+      "npm run lint:php"
+    ],
+    "vue-frontend/src/**/*.{ts,vue,js}": [
+      "npm run lint:frontend"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@eslint/js": "^9.32.0",
+    "@rushstack/eslint-patch": "^1.12.0",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.4.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "@vitest/coverage-v8": "^2.1.9",
+    "@vue/eslint-config-typescript": "^14.1.3",
+    "@vue/test-utils": "^2.4.6",
+    "babel-loader": "^10.0.0",
+    "cross-env": "^10.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint": "^9.32.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-modules-newlines": "^0.0.7",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "eslint-plugin-vue": "^10.2.0",
+    "husky": "^9.1.7",
+    "jsdom": "^25.0.1",
+    "laravel-mix": "^6.0.49",
+    "lint-staged": "^16.1.2",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.9.2",
+    "null-loader": "^4.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^3.3.4",
+    "terser": "^5.26.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "video.js": "^8.10.0",
+    "vite": "^6.0.1",
+    "vitest": "^2.1.8",
+    "vue": "^3.5.17",
+    "vue-eslint-parser": "^10.1.4",
+    "vue-loader": "^16.8.3",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.7.0",
+    "axios": "^1.12.0",
+    "bootstrap-scss": "^5.3.3",
+    "pinia": "^2.2.6",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "survey-core": "^1.12.53",
+    "survey-jquery": "^1.12.53",
+    "survey-knockout-ui": "^1.12.53",
+    "videojs-youtube": "^3.0.1",
+    "vue-router": "^4.2.5",
+    "vue3-slide-up-down": "^2.1.0",
+    "vue3-toastify": "^0.2.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "overrides": {
+    "babel-loader": "^10.0.0"
+  }
+}

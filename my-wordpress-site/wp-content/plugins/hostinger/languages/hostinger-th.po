@@ -1,0 +1,439 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Tools 3.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger\n"
+"Last-Translator: \n"
+"Language-Team: Thai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-30T12:00:12+00:00\n"
+"PO-Revision-Date: 2025-09-02 11:43+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.0.30"
+
+#: includes/Admin/Assets.php:173
+msgid ""
+" Turning on XML-RPC might make your site less secure. Do you want to proceed?"
+msgstr ""
+"การเปิดใช้งาน XML-RPC อาจทำให้ไซต์ของคุณปลอดภัยน้อยลง "
+"คุณต้องการดำเนินการต่อหรือไม่?"
+
+#: includes/Errors.php:16
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr "การดำเนินการล้มเหลว โปรดลองอีกครั้งหรือติดต่อฝ่ายสนับสนุน"
+
+#: includes/Admin/Assets.php:154
+#, fuzzy
+msgid "AI Tools"
+msgstr "เครื่องมือ AI"
+
+#: includes/Admin/Assets.php:184
+#, fuzzy
+msgid "Allow Kodee to manage your site"
+msgstr "อนุญาตให้ Kodee จัดการเว็บไซต์ของคุณ"
+
+#: includes/Admin/Assets.php:163
+#, fuzzy
+msgid ""
+"An external LLMs.txt file was found. Switching on the toggle will replace it "
+"with a new one."
+msgstr "พบไฟล์ LLMs.txt ภายนอก การเปิดสวิตช์จะแทนที่ด้วยไฟล์ใหม่"
+
+#: includes/Errors.php:19
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดลองอีกครั้งหรือติดต่อฝ่ายสนับสนุน"
+
+#. translators: %s: PHP version
+#: hostinger.php:84
+msgid "Attention:"
+msgstr "ข้อควรระวัง:"
+
+#: includes/Admin/Assets.php:169
+msgid "Bypass link"
+msgstr "ลิงค์บายพาส"
+
+#: includes/Admin/Assets.php:177
+msgid "Bypass link reset"
+msgstr "รีเซ็ตลิงค์บายพาส"
+
+#: includes/Admin/Assets.php:166 includes/Admin/Assets.php:175
+#: includes/Admin/Assets.php:179
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: includes/Admin/Assets.php:161
+#, fuzzy
+msgid "Check validity"
+msgstr "ตรวจสอบความถูกต้อง"
+
+#: includes/Views/ComingSoon.php:6 includes/Views/ComingSoon.php:24
+msgid "Coming Soon"
+msgstr "เร็วๆ นี้"
+
+#: includes/Admin/Assets.php:189
+#, fuzzy
+msgid "Connect domain"
+msgstr "เชื่อมต่อโดเมน"
+
+#: includes/Admin/Assets.php:186
+#, fuzzy
+msgid "Copied successfully"
+msgstr "คัดลอกสำเร็จ"
+
+#: includes/Admin/Assets.php:167
+#, fuzzy
+msgid "Create file"
+msgstr "สร้างไฟล์"
+
+#: includes/Admin/Assets.php:156
+#, fuzzy
+msgid "Create LLMs.txt file"
+msgstr "สร้างไฟล์ LLMs.txt"
+
+#: includes/Admin/Assets.php:164
+#, fuzzy
+msgid "Create new LLMs.txt file?"
+msgstr "สร้างไฟล์ LLMs.txt ใหม่?"
+
+#: includes/Admin/Assets.php:134
+msgid "Disable application passwords"
+msgstr "ปิดใช้งานรหัสผ่านแอปพลิเคชัน"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"Disable public access to the site (WordPress admins will still be able to "
+"access)"
+msgstr ""
+"ปิดการใช้งานการเข้าถึงเว็บไซต์แบบสาธารณะ (ผู้ดูแลระบบ WordPress "
+"จะยังสามารถเข้าถึงได้)"
+
+#: includes/Admin/Assets.php:132
+msgid "Disable XML-RPC"
+msgstr "ปิดการใช้งาน XML-RPC"
+
+#: includes/Admin/Assets.php:174
+msgid "Disclaimer"
+msgstr "การปฏิเสธความรับผิดชอบ"
+
+#: includes/Admin/Assets.php:128
+msgid "Edit site"
+msgstr "แก้ไขเว็บไซต์"
+
+#: includes/Admin/Assets.php:149
+msgid "For improved security, ensure you use the latest version of WordPress"
+msgstr "เพื่อความปลอดภัยที่ดีขึ้น โปรดใช้ WordPress เวอร์ชันล่าสุด"
+
+#: includes/Admin/Assets.php:137
+msgid "Force HTTPS"
+msgstr "บังคับใช้ HTTPS"
+
+#: includes/Admin/Assets.php:139
+msgid "Force WWW"
+msgstr "บังคับใช้ WWW"
+
+#: includes/Admin/Assets.php:172 includes/Admin/Hooks.php:57
+msgid "Got it"
+msgstr "เข้าใจแล้ว"
+
+#. Author of the plugin
+#: hostinger.php
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Hooks.php:55
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#: includes/Admin/Hooks.php:51
+msgid "Hostinger plugin updates"
+msgstr "อัพเดตปลั๊กอิน Hostinger"
+
+#. Plugin Name of the plugin
+#: hostinger.php includes/Admin/Hooks.php:54
+msgid "Hostinger Tools"
+msgstr "เครื่องมือ Hostinger"
+
+#: includes/Admin/Assets.php:171
+msgid ""
+"Hostinger Tools will offer new tools to simplify your site management. And "
+"Hostinger Easy Onboarding will guide you through the steps of building a "
+"website."
+msgstr ""
+"เครื่องมือ Hostinger จะมอบเครื่องมือใหม่ๆ "
+"เพื่อให้จัดการเว็บไซต์ของคุณง่ายขึ้น และ Hostinger Easy Onboarding "
+"จะคอยแนะนำคุณตลอดขั้นตอนการสร้างเว็บไซต์"
+
+#. Description of the plugin
+#: hostinger.php
+msgid "Hostinger WordPress plugin."
+msgstr "ปลั๊กอิน Hostinger WordPress"
+
+#. Plugin URI of the plugin
+#: hostinger.php
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#. Author URI of the plugin
+#: hostinger.php
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com"
+
+#: includes/Admin/Assets.php:148
+msgid "is recommended"
+msgstr "ขอแนะนำ"
+
+#: includes/Admin/Assets.php:183
+#, fuzzy
+msgid "It was an error updating your settings"
+msgstr "เกิดข้อผิดพลาดในการอัปเดตการตั้งค่าของคุณ"
+
+#: includes/Admin/Assets.php:160
+#, fuzzy
+msgid "Learn more"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: includes/Admin/Assets.php:157
+#, fuzzy
+#| msgid "Let AI explore, understand, and interact with your WordPress site"
+msgid "Let AI explore, understand, and interact with your WordPress site."
+msgstr "ให้ AI สำรวจ ทำความเข้าใจ และโต้ตอบกับเว็บไซต์ WordPress ของคุณ"
+
+#: includes/Admin/Assets.php:185
+#, fuzzy
+msgid ""
+"Let Kodee manage your site on your behalf. This allows Kodee to perform "
+"actions like creating pages or updating settings. We will install and pre-"
+"configure the WordPress MCP plugin for you."
+msgstr ""
+"ให้ Kodee ดูแลเว็บไซต์ของคุณแทนคุณ. ซึ่งทำให้ Kodee "
+"สามารถดำเนินการเช่นการสร้างหน้าเว็บหรือการอัปเดตการตั้งค่าได้. "
+"เราจะติดตั้งและตั้งค่าล่วงหน้าปลั๊กอิน WordPress MCP ให้คุณ."
+
+#: includes/Admin/Assets.php:181
+msgid "Link has been reset"
+msgstr "ลิงก์ถูกรีเซ็ตแล้ว"
+
+#: includes/Admin/Assets.php:155
+#, fuzzy
+msgid "LLM Optimization"
+msgstr "การเพิ่มประสิทธิภาพ LLM"
+
+#: includes/Admin/Assets.php:188
+#, fuzzy
+msgid ""
+"LLM optimization features are not available for temporary subdomains. "
+"Connect a domain to unlock these features."
+msgstr ""
+"คุณสมบัติการเพิ่มประสิทธิภาพ LLM ไม่สามารถใช้ได้กับโดเมนย่อยชั่วคราว "
+"กรุณาเชื่อมต่อโดเมนเพื่อปลดล็อกคุณสมบัติเหล่านี้"
+
+#: includes/Admin/Assets.php:162
+#, fuzzy
+msgid "LLMS.txt"
+msgstr "LLMS.txt"
+
+#: includes/Admin/Assets.php:150
+msgid "Maintenance"
+msgstr "การดูแลรักษา"
+
+#: includes/Admin/Assets.php:168
+msgid "Maintenance mode"
+msgstr "โหมดการดูแลรักษา"
+
+#: includes/Admin/Assets.php:159
+#, fuzzy
+msgid ""
+"Make your website easier for AI tools to understand. Website content updates "
+"will be tracked to keep the AI discovery service up to date."
+msgstr ""
+"ทำให้เว็บไซต์ของคุณง่ายขึ้นสำหรับเครื่องมือ AI ในการเข้าใจ "
+"การอัปเดตเนื้อหาเว็บไซต์จะถูกติดตามเพื่อให้บริการค้นหา AI ทันสมัยอยู่เสมอ"
+
+#: includes/Views/ComingSoon.php:27
+msgid "New WordPress website is being built and will be published soon"
+msgstr "เว็บไซต์ WordPress ใหม่กำลังถูกสร้างขึ้นและจะเผยแพร่เร็วๆ นี้"
+
+#: includes/Admin/Hooks.php:54
+msgid "offers a toolkit for easier site maintenance."
+msgstr "เสนอชุดเครื่องมือเพื่อการบำรุงรักษาไซต์ที่ง่ายขึ้น"
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"บน <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:126
+msgid "Open guide"
+msgstr "เปิดคู่มือ"
+
+#: includes/Admin/Assets.php:142
+msgid "PHP version"
+msgstr "เวอร์ชั่น PHP"
+
+#: includes/Admin/Assets.php:151
+msgid "Preview my website"
+msgstr "ดูตัวอย่างเว็บไซต์ของฉัน"
+
+#: includes/Admin/Assets.php:127
+msgid "Preview site"
+msgstr "ดูตัวอย่างเว็บไซต์"
+
+#: includes/Admin/Assets.php:176
+msgid "Proceed anyway"
+msgstr "ดำเนินการต่อ"
+
+#: includes/Admin/Hooks.php:55
+msgid ""
+"provides guidance and learning resources for beginners to get started with "
+"building a site using WordPress."
+msgstr ""
+"ให้คำแนะนำและแหล่งข้อมูลการเรียนรู้สำหรับผู้เริ่มต้นเพื่อเริ่มต้นสร้างเว็บไซต์โดยใช้"
+" WordPress"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "จัดอันดับปลั๊กอินนี้"
+
+#: includes/Admin/Assets.php:153
+msgid "Redirects"
+msgstr "เปลี่ยนเส้นทาง"
+
+#: includes/Admin/Assets.php:138
+msgid "Redirects all HTTP URLs to HTTPS sites"
+msgstr "เปลี่ยนเส้นทาง URL HTTP ทั้งหมดไปยังไซต์ HTTPS"
+
+#: includes/Admin/Assets.php:140
+msgid "Redirects all WWW URLs to non-WWW ones"
+msgstr "เปลี่ยนเส้นทาง URL WWW ทั้งหมดไปยัง URL ที่ไม่ใช่ WWW"
+
+#: includes/Admin/Assets.php:131 includes/Admin/Assets.php:180
+msgid "Reset link"
+msgstr "รีเซ็ตลิงค์"
+
+#: includes/Admin/Assets.php:145
+msgid "Running the latest version"
+msgstr "กำลังใช้งานเวอร์ชั่นล่าสุด"
+
+#: includes/Admin/Assets.php:152
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+#: includes/Admin/Assets.php:130
+msgid "Skip-link that bypasses the maintenance mode"
+msgstr "ข้ามลิงค์ที่เลี่ยงผ่านโหมดการบำรุงรักษา"
+
+#: includes/Admin/Assets.php:187
+#, fuzzy
+msgid "Text has been copied successfully"
+msgstr "ข้อความถูกคัดลอกสำเร็จแล้ว"
+
+#: includes/Admin/Hooks.php:52
+msgid "The Hostinger plugin has been split into two different plugins:"
+msgstr "ปลั๊กอิน Hostinger ถูกแบ่งออกเป็นสองปลั๊กอินที่แตกต่างกัน:"
+
+#: includes/Admin/Assets.php:178
+msgid ""
+"This will invalidate the currently generated link in use. This action cannot "
+"be undone, are you sure you want to proceed?"
+msgstr ""
+"การกระทำนี้จะทำให้ลิงก์ที่สร้างขึ้นในปัจจุบันใช้งานไม่ได้ "
+"การดำเนินการนี้ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ"
+
+#: includes/Admin/Assets.php:165
+#, fuzzy
+msgid ""
+"This will replace the existing LLMs.txt file with a new one by Hostinger "
+"Tools. The original file can’t be restored."
+msgstr ""
+"นี่จะแทนที่ไฟล์ LLMs.txt ที่มีอยู่ด้วยไฟล์ใหม่จาก Hostinger Tools "
+"ไฟล์ต้นฉบับไม่สามารถกู้คืนได้"
+
+#: includes/Admin/Assets.php:125 includes/Admin/Menu.php:22
+#: includes/Admin/Menu.php:31 includes/Admin/Menu.php:32
+msgid "Tools"
+msgstr "เครื่องมือ"
+
+#: includes/Errors.php:38
+msgid "Unknown error code."
+msgstr "รหัสข้อผิดพลาดที่ไม่ทราบ"
+
+#: includes/Admin/Assets.php:146
+#, fuzzy
+msgid "Update"
+msgstr "อัปเดต"
+
+#: includes/Admin/Assets.php:147
+msgid "Update to"
+msgstr "อัพเดตเป็น"
+
+#: includes/Admin/Assets.php:144
+msgid "Various updates and fixes available in the newest version."
+msgstr "มีการอัปเดตและการแก้ไขต่างๆ ในเวอร์ชันล่าสุด"
+
+#: includes/Errors.php:22
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"เราขออภัยในความไม่สะดวกที่เกิดขึ้น ขั้นตอนการสร้างเนื้อหา AI "
+"พบข้อผิดพลาดของเซิร์ฟเวอร์ โปรดลองอีกครั้งในภายหลัง และหากยังคงเกิดปัญหาอยู่ "
+"โปรดติดต่อทีมสนับสนุนของเราเพื่อขอความช่วยเหลือ"
+
+#: includes/Admin/Assets.php:158
+#| msgid "Web 2 Agent"
+msgid "Web2Agent"
+msgstr "เว็บ2เอเจนต์"
+
+#: includes/Admin/Assets.php:170
+msgid ""
+"We’re splitting Hostinger plugin into two: Hostinger Tools and Hostinger "
+"Easy Onboarding"
+msgstr ""
+"เรากำลังแยกปลั๊กอิน Hostinger ออกเป็นสองส่วน: Hostinger Tools และ Hostinger "
+"Easy Onboarding"
+
+#: includes/Admin/Assets.php:135
+msgid ""
+"WordPress application passwords allow users to authenticate API requests "
+"without using their main login credentials, allowing for third-party "
+"integrations."
+msgstr ""
+"รหัสผ่านแอปพลิเคชัน WordPress ช่วยให้ผู้ใช้สามารถตรวจสอบคำขอ API "
+"ได้โดยไม่ต้องใช้ข้อมูลรับรองการเข้าสู่ระบบหลัก "
+"ช่วยให้สามารถบูรณาการกับเครื่องมือบุคคลที่สามได้"
+
+#: includes/Admin/Assets.php:143
+msgid "WordPress version"
+msgstr "เวอร์ชั่น WordPress"
+
+#: includes/Admin/Assets.php:141
+msgid ""
+"WWW and non-WWW domain records are not pointing to the same host. Redirect "
+"not possible."
+msgstr ""
+"บันทึกโดเมน WWW และไม่ใช่ WWW ไม่ได้ชี้ไปที่โฮสต์เดียวกัน "
+"ไม่สามารถเปลี่ยนเส้นทางได้"
+
+#: includes/Admin/Assets.php:133
+msgid ""
+"XML-RPC allows apps to connect to your WordPress site, but might expose your "
+"site's security. Disable this feature if you don't need it"
+msgstr ""
+"XML-RPC อนุญาตให้แอปเชื่อมต่อกับไซต์ WordPress ของคุณได้ "
+"แต่ระบบอาจเปิดเผยความปลอดภัยของไซต์ของคุณได้ "
+"ปิดใช้งานฟีเจอร์นี้หากคุณไม่ต้องการ"
+
+#: includes/Admin/Assets.php:182
+#, fuzzy
+msgid "Your settings have been updated"
+msgstr "การตั้งค่าของคุณได้รับการอัปเดตแล้ว"

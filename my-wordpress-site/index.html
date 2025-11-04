@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <!-- META: SEO + PERFORMANCE + ACCESSIBILITY -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NeuralTechGuide 2025: Reboot-proof neurotech mastery. Free BCI tutorials, ethics, code labs. Autopilot your brain." />
+  <meta name="theme-color" content="#1a1a1a" />
+  <meta name="robots" content="index, follow" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>NeuralTechGuide 2025 | Wire Your Brain</title>
+  
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="NeuralTechGuide 2025" />
+  <meta property="og:description" content="Open-source path to neurotech: BCI, EEG, ethics — gamified & free." />
+  <meta property="og:image" content="/og-neural.png" />
+  <meta property="og:url" content="https://neuraltechguide.com" />
+  
+  <!-- FAVICON + PWA -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  
+  <!-- CSS: 8KB, GRID + DARK + ACCESSIBLE -->
+  <style>
+    :root {
+      --bg: #0d0d0d; --text: #f0f0f0; --accent: #00d4ff; --gray: #333; --border: #444;
+      --focus: #00d4ff; --success: #4ade80;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f8f8f8; --text: #1a1a1a; --gray: #eee; --border: #ddd; }
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 2rem;
+      background: radial-gradient(circle at center, #1a1a1a 0%, var(--bg) 100%);
+    }
+    .hero h1 { font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 900;
+      background: linear-gradient(90deg, #fff, var(--accent)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .hero p { font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem; opacity: 0.9; }
+    .cta { background: var(--accent); color: #000; padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: bold; font-size: 1.1rem; cursor: pointer;
+      transition: all 0.3s ease; text-decoration: none; display: inline-block; }
+    .cta:hover, .cta:focus { transform: scale(1.05); outline: 2px solid var(--focus); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+    .card { background: var(--gray); padding: 2rem; border-radius: 16px; transition: transform 0.3s; border: 1px solid var(--border); }
+    .card:hover, .card:focus-within { transform: translateY(-8px); box-shadow: 0 4px 20px rgba(0,212,255,0.2); }
+    .card h3 { color: var(--accent); margin-bottom: 1rem; }
+    footer { text-align: center; padding: 3rem; opacity: 0.7; font-size: 0.9rem; }
+    .quiz-teaser { background: var(--success); padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+    /* ACCESSIBILITY: High contrast, ARIA */
+    [role="button"] { cursor: pointer; }
+    @media (max-width: 768px) { .features { padding: 2rem 1rem; gap: 1rem; } }
+  </style>
+  
+  <!-- FONT: SYSTEM (0MS) + DEFER JS: ENGAGEMENT -->
+  <script defer>
+    // PWA + Dark Mode + Micro-Feedback
+    let deferredPrompt; window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; });
+    document.querySelector('.cta')?.addEventListener('click', () => { if (deferredPrompt) deferredPrompt.prompt(); });
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark');
+    // Quiz Teaser: Simple engagement
+    document.querySelector('.quiz-teaser')?.addEventListener('click', () => alert('Neural Quest Unlocked: Test your BCI knowledge!'));
+  </script>
+</head>
+<body>
+  <header>
+    <div class="hero" role="main">
+      <h1>NeuralTechGuide 2025</h1>
+      <p>Reboot-proof mastery: Free BCI tutorials, EEG code labs, ethics engine. Autopilot your neural journey — from basics to breakthroughs.</p>
+      <a href="#start" class="cta" role="button">Launch Neural Quest →</a>
+    </div>
+  </header>
+
+  <section class="features" id="start" role="region" aria-label="Core Modules">
+    <div class="card" tabindex="0">
+      <h3>🧠 BCI Fundamentals</h3>
+      <p>EEG signals to invasive interfaces — interactive sims & step-by-step paths.</p>
+      <div class="quiz-teaser" role="button" tabindex="0">Quick Quiz: Signal Basics</div>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>⚡ Ethics & Law</h3>
+      <p>2025 consent, privacy, bias — gamified scenarios for real-world prep.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>🤖 Code Labs</h3>
+      <p>Python EEG analysis, zero-dep scripts — copy-paste & run eternal.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>🌐 Community Forge</h3>
+      <p>Open-source collabs, progress badges, neural forums — build together.</p>
+    </div>
+  </section>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 NeuralTechGuide • Vacuum-powered • <a href="/privacy">Accessible Eternal</a> | <a href="/manifest.json">PWA Install</a></p>
+  </footer>
+</body>
+</html>
